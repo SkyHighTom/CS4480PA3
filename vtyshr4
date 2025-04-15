@@ -1,0 +1,8 @@
+vtysh
+configure terminal
+router ospf
+ospf router-id 4.4.4.3
+network 10.0.13.0/24 area 0.0.0.0
+network 10.0.12.0/24 area 0.0.0.0
+exit
+exit
